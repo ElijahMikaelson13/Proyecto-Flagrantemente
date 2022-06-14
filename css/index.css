@@ -1,4 +1,5 @@
 h1 {
+    transform: scale(2,1);
     text-align: center;
     font-size: 100px;
     font-style: normal;
@@ -42,17 +43,11 @@ padding-right: 5px;
     border-color: firebrick;
 } 
 
-header{
-    background-image: url(../img/Ball.jpg);
-    background-size: cover;
-    border: 4px;
-    border-style: groove;
-    border-color: firebrick;
+header {
     display: flex;
     align-items: stretch;
     padding: 2rem;
-     
-
+    background: linear-gradient(to right, black, darkred)
 }
 .multimedia {
     margin-left: 2px;
