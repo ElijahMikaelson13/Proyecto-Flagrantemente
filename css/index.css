@@ -87,6 +87,9 @@ section .palmares {
     width: 20%;
 }
 
+.palmares .fasefinal{
+    font-weight: bold;
+}
 h2 {
     color: orangered;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
