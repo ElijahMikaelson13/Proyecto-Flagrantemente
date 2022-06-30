@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    color: firebrick;
+    font-family:'Freckle Face', cursive;
+    padding: 1rem;
+    }
+
+.Nuevo {
+        font-size: 30px;
+        overflow: visible;
+        display: block;
+        margin-left: 5px;
+        padding-top: 3px;
+        padding-right: 5px;  
+}
+
+.multimedia {
+            margin-left: 2px;
+            margin-top: 2px;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            padding-top: 4px;  
+}
+        
+.simbolo {
+    margin: 5px;
+    width: 50%;
+    height: 30%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: firebrick;
+}
+
+.videoceremonia {
+    margin-left: 1px;
+    margin-top: 2px;
+    border-color: firebrick;
+    border-style: solid;
+    border-width: 4px;
+}

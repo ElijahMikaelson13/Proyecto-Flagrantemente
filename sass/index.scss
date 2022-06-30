@@ -1,22 +1,16 @@
-#header {
-    display: flex;
-    align-items: stretch;
-    padding: 2rem;
-    background: linear-gradient(to right, black, darkred)
 
-    enlaces__item{
-        display: inline-block;
-        margin-left: 170px;
-    }
-    a{
-        color: orangered;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 15px;
-        display: flex;
-        text-decoration: none;
-        align-items: stretch;
-    }
-    ul{
-        list-style-type: none;
-    }
-}
+/* MISC */
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
+/* PARTIALS */
+@import './partials/header';
+@import './partials/footer';
+
+/* VIEWS */
+@import './views/home';
+@import './views/standings';
+@import './views/en\ la\ chiquita';
+@import './views/franquicias';
+@import './views/contacto';
