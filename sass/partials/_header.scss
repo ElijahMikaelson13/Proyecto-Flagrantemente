@@ -2,9 +2,10 @@
     display: flex;
     align-items: stretch;
     padding: 2rem;
-    background: linear-gradient(to right, black, darkred)
+    background: linear-gradient(to right, black, darkred) 
+}
 
-    enlaces__item{
+    .enlaces__item{
         display: inline-block;
         margin-left: 170px;
     }
@@ -19,4 +20,3 @@
     ul{
         list-style-type: none;
     }
-}

@@ -42,3 +42,29 @@ h1 {
     border-style: solid;
     border-width: 4px;
 }
+
+.btn {
+    width: 140px;
+    padding: 9px 11px;
+    font-size: 17px;
+    margin: 0 auto;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn--aceptar{
+    @extend .btn;
+    background-color: orangered;
+    & hover {
+        background-color: rgba(241, 70, 8, 0.767); 
+}
+
+}
+
+.btn--cancelar {
+    @extend .btn;
+    background-color: orangered;
+    & hover {
+        background-color: rgba(218, 63, 7, 0.842);
+    }
+}

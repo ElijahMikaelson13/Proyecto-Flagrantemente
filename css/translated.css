@@ -1,4 +1,8 @@
 /* MISC */
+/* Colors */
+/* Spacings */
+/* Font-Family */
+/* Font-Size */
 * {
   margin: 0;
   padding: 0;
@@ -15,23 +19,50 @@ img {
   display: flex;
   align-items: stretch;
   padding: 2rem;
-  background: linear-gradient(to right, black, darkred) enlaces__item;
-}
-  
-.enlaces__item{ 
-  display: inline-block;
-  margin-left: 170px; 
-}
+  background: linear-gradient(to right, black, darkred); }
 
-  #header a {
-    color: orangered;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+.enlaces__item {
+  display: inline-block;
+  margin-left: 170px; }
+
+a {
+  color: orangered;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  display: flex;
+  text-decoration: none;
+  align-items: stretch; }
+
+ul {
+  list-style-type: none; }
+
+footer {
+  padding: 1rem;
+  border-bottom: #000000;
+  background-color: #B80000; }
+  footer .redes {
     display: flex;
-    text-decoration: none;
-    align-items: stretch; }
-  #header ul {
-    list-style-type: none; }
+    flex-direction: self-start;
+    justify-content: end;
+    align-items: self-start;
+    gap: 1rem;
+    min-width: 700px; }
+    footer .redes .redes a {
+      text-decoration: none;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      color: #000000;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba 0, 0, 0, 0.5; }
+      footer .redes .redes a .btn--facebook {
+        background-color: "#87cefa"; }
+      footer .redes .redes a .btn--instagram {
+        background-color: "#A020F0"; }
+      footer .redes .redes a .btn--whatsapp {
+        background-color: "#90EE90"; }
 
 /* VIEWS */
 h1 {
@@ -73,6 +104,24 @@ h1 {
   border-color: firebrick;
   border-style: solid;
   border-width: 4px; }
+
+.btn, .btn--aceptar, .btn--cancelar {
+  width: 140px;
+  padding: 9px 11px;
+  font-size: 17px;
+  margin: 0 auto;
+  border: none;
+  font-family: 'Montserrat', sans-serif; }
+
+.btn--aceptar {
+  background-color: orangered; }
+  .btn--aceptar hover {
+    background-color: rgba(241, 70, 8, 0.767); }
+
+.btn--cancelar {
+  background-color: orangered; }
+  .btn--cancelar hover {
+    background-color: rgba(218, 63, 7, 0.842); }
 
 .clasificacion .fasefinal {
   display: flex;
