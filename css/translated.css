@@ -132,3 +132,66 @@ h1 {
 
 .palmares .fasefinal {
   font-weight: bold; }
+
+.baul {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem; }
+
+.galeria .galeria__img1 {
+  grid-column: 1/13; }
+
+.galeria .galeria__img3 {
+  grid-column: 1/13;
+  grid-row: 2; }
+
+.galeria .galeria__img7 {
+  grid-row: 3;
+  grid-column: 1/7; }
+
+.galeria .galeria__img8 {
+  grid-row: 3/4;
+  grid-column: 7/13; }
+
+section .palmares {
+  width: 20%; }
+
+table {
+  border-style: outset;
+  margin: 3px 4px 5px 5px;
+  padding: 8px;
+  border-color: firebrick;
+  width: 100%;
+  height: 20%;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.newsletter {
+  font-size: 18px;
+  font-style: normal;
+  display: block;
+  font-weight: regular;
+  line-height: 1.5;
+  text-align: center; }
+
+form {
+  text-align: center;
+  background-color: darksalmon;
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: .8rem;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: darkslategrey; }
+
+.options {
+  gap: 4rem; }
+
+.clubes {
+  gap: 2rem; }
