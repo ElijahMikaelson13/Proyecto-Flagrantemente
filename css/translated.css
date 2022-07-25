@@ -36,6 +36,9 @@ a {
 ul {
   list-style-type: none; }
 
+a:hover {
+  color: orangered; }
+
 footer {
   padding: 1rem;
   border-bottom: #000000;
@@ -170,6 +173,11 @@ table {
   height: 20%;
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.lead {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: large; }
 
 .newsletter {
   font-size: 18px;

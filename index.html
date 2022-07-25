@@ -16,9 +16,16 @@
 </head>
 <body>
     <header> 
-        <section id="Ruta"> 
-        <nav class="navegacion">
-            <ul class="enlaces"> 
+        <section id="Ruta">
+            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                 <a href="#" class="navbar-brand"></a>
+                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div id="MenuNavegacion" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-3"> 
                 <li class="enlaces__item">
                     <a href="./index.html" class="enlaces__casa">Home</a>
                 </li>
@@ -31,19 +38,22 @@
                 <li class="enlaces__item">
                     <a href="./views/Franquicias.html" class="enlaces__clubes">Franquicias</a>
                 </li>
-                <li class="enlaces__item" >
+                <li class="enlaces__item">
                     <a href="./views/Contacto.html" class="enlaces__conexion">Contacto</a>
                 </li>
             </ul>
+        </div>
+        </div> 
         </nav>
+        </div> 
         </section>
     </header>
-        <div class="container">
+        <div class="container-fluid">
            <h1>Flagrantemente</h1>
         </div>
     <section id="Novedades de este año" class="Nuevo">
      <article class="container">
-         <p>La NBA celebró su aniversario número 75 con un nuevo logo exclusivo y único para esta temporada. Además, agregó 25 jugadores a la ya existente lista de "Los 50 mejores jugadores de la historia de la NBA"</p>
+         <p>La NBA celebró su aniversario número 75 con un nuevo logo exclusivo y único para esta temporada. Además, agregó 25 jugadores a la ya existente lista de "Los 50 mejores jugadores de la historia de la NBA".</p>
      </article>
      <div class="multimedia">
         <img src="./img/NBA LOGO 75.jpg" alt="Imagen que representa el logo especial de la NBA" width="50%" class="simbolo">
@@ -52,7 +62,19 @@
         
     </div>
     </section>
-    <footer>
+    <div container>
+    <h3 class="Sum"> Summer League</h3>
+    <h5> El Verano es de Portland</h5>
+    <p class="lead">
+        Mientras la franquicia atraviesa un momento de incertidumbre sobre si el objetivo es campeonar; el dinero, la relocación, entre otros, lo cierto es que el certamen que 
+        anualmente se realiza en Las Vegas tiene un nuevo dueño. Y se trata de Portland Blazers. Si bien el comienzo fue tortuoso, debido a la pronta lesión que sufrió Shaedon Sharpe (Prospecto seleccionado en la séptima
+        posición por el club), rápidamente el equipo supo enfrentar la adversidad y; liderados por Trenton Watford, Brandon Williams y Luka Garza, emprendieron el camino de la gloria, al jugar 
+        basket de gran nivel y culminar exitosamente tras vencer a New York Knicks por 85-77.
+    </p>
+    <picture>
+        <img class="blazers" src="./img/Summer League.jpg" alt="Portland logra el campeonato verano por segunda vez (2018)">
+    </picture>
+    <footer class="container-fluid">
         <section class="redes">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-instagram"></a>
