@@ -14,3 +14,38 @@
 @import './views/en\ la\ chiquita';
 @import './views/franquicias';
 @import './views/contacto';
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        
+
+    }
+
+    .galeria {
+        grid-template-rows: repeat(4, auto);
+        gap: 1rem;
+    }
+
+    h1{
+        display: flex;
+        align-items: center;
+    }
+
+    .multimedia {
+        flex-direction: column;
+    }
+
+    .videoceremonia{
+        display: grid;
+    }
+
+    .cuadro {
+        display: flex;
+        justify-content: center;
+    }
+}
